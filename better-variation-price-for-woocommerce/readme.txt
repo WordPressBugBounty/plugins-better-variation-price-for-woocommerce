@@ -3,9 +3,9 @@ Contributors: josserand
 Tags: woocommerce, product, variable, variation, price
 Requires PHP: 5.6
 Requires at least: 5.8
-Tested up to: 6.6
+Tested up to: 6.7
 WC requires at least: 5.5
-WC tested up to: 9.3
+WC tested up to: 9.4
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -30,6 +30,9 @@ Settings can be found under WooCommerce -> Settings -> Products -> Better Variat
 Alternatively, you can access the settings from the installed plugins page
 
 == Changelog ==
+
+= 1.3.1 [14-11-2024] =
+* Checked compatibility with Wordpress 6.7 and WooCommerce 9.4
 
 = 1.3.0 [17-09-2024] =
 * Major update: Added WooCommerce 9.0 and Gutenberg compatibility

@@ -4,12 +4,12 @@ Plugin Name: Better Variation Price for Woocommerce
 Plugin Slug: wbvp
 Text Domain: better-variation-price-for-woocommerce
 Description: Replace the Woocommerce variable products price range with the lowest price or the selected variation price.
-Version: 1.3.0
+Version: 1.3.1
 Requires Plugins: woocommerce
 Requires at least: 5.8
-Tested up to: 6.6
+Tested up to: 6.7
 WC requires at least: 5.5
-WC tested up to: 9.3
+WC tested up to: 9.4
 Author: Josserand Gallot
 Author URI: https://josserandgallot.com/
 Domain Path: /languages
