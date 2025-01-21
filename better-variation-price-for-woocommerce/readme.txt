@@ -5,7 +5,7 @@ Requires PHP: 5.6
 Requires at least: 5.8
 Tested up to: 6.7
 WC requires at least: 5.5
-WC tested up to: 9.4
+WC tested up to: 9.6
 Stable tag: trunk
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -30,6 +30,10 @@ Settings can be found under WooCommerce -> Settings -> Products -> Better Variat
 Alternatively, you can access the settings from the installed plugins page
 
 == Changelog ==
+
+= 1.3.2 [21-01-2025] =
+* Fixed an error that occurred when no variation was found under specific conditions
+* Checked compatibility with WooCommerce 9.6
 
 = 1.3.1 [14-11-2024] =
 * Checked compatibility with Wordpress 6.7 and WooCommerce 9.4

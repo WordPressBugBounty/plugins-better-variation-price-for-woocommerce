@@ -122,10 +122,15 @@ class WBVP {
 			}
 		endif;
 
-		$variation = wc_get_product($variation_id);
-		$variation_price_html = $variation->get_price_html();
-		$html_price = str_replace('{price}', $variation_price_html, $this->options['format']);
-		return $html_price;
+		$variation = $variation_id ? wc_get_product($variation_id) : false;
+
+		if ($variation && is_object($variation)) {
+			$variation_price_html = $variation->get_price_html();
+			$html_price = str_replace('{price}', $variation_price_html, $this->options['format']);
+			return $html_price;
+		}
+
+		return $price;
 
 	}
 
